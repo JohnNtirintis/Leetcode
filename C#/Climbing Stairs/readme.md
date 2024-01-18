@@ -1,12 +1,12 @@
 # Solution Approach
 
-## The ClimbStairs class in Solution.cs implements a recursive method SolveRecursive to calculate the number of ways to climb the stairs. To optimize the performance and avoid redundant calculations, memoization is used.
-Key Features
+The ClimbStairs class in Solution.cs implements a recursive method SolveRecursive to calculate the number of ways to climb the stairs. To optimize the performance and avoid redundant calculations, memoization is used.
+## Key Features
 
-    ### Recursion: 
-	The solution uses a recursive approach, breaking down the problem into smaller, manageable sub-problems.
-    ### Memoization: 
-	To prevent repetitive calculations for the same number of steps, we utilize an array climbStairsMemo for storing intermediate results. This significantly reduces the time complexity from exponential to linear.
+- Recursion: 
+The solution uses a recursive approach, breaking down the problem into smaller, manageable sub-problems.
+- Memoization: 
+To prevent repetitive calculations for the same number of steps, we utilize an array climbStairsMemo for storing intermediate results. This significantly reduces the time complexity from exponential to linear.
 
 
 ## Problem Description:
@@ -35,6 +35,4 @@ Explanation: There are three ways to climb to the top.
  
 
 Constraints:
-
-    1 <= n <= 45
-
+1 <= n <= 45
